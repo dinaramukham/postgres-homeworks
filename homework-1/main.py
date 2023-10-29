@@ -43,5 +43,5 @@ if __name__=='__main__':
                 order['ship_city']))
             curs.execute("SELECT * FROM employees")
             data_order = curs.fetchall()
-
+    conn.commit()
     conn.close()
